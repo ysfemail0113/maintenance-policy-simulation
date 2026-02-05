@@ -1,19 +1,19 @@
-Project Overview###
+## Project Overview
 
 This project uses discrete-event simulation (SimPy) to evaluate different maintenance policies and their impact on machine downtime. Rather than proposing a single optimal solution, the goal is to quantitatively compare alternative policies under controlled assumptions and demonstrate measurable improvements.
 
 The simulation is designed as a decision-support tool, enabling managers or engineers to assess trade-offs between operational performance and cost.
 
-Objectives###
+## Objectives
 
 Model an AS-IS (reactive maintenance) system
 Model multiple TO-BE (policy-based) maintenance scenarios
 Measure and compare average machine downtime
 Extend the model with cost–benefit based decision policies
 
-System Description###
+## System Description
 
-AS-IS Model (Baseline)
+### AS-IS Model (Baseline)
 Machines operate until failure
 Upon failure, machines request a maintenance resource
 If the maintenance bay is busy, machines queue
@@ -21,7 +21,7 @@ Downtime includes:
 Waiting time in queue
 Actual repair time
 
-TO-BE Model (Policy-Based)
+### TO-BE Model (Policy-Based)
 
 Maintenance is triggered before failure using a preventive threshold
 Policy parameters may include:
@@ -30,7 +30,7 @@ Reduced maintenance duration
 Increased maintenance capacity
 The simulation measures how these policies affect average downtime per machine
 
-Key Assumptions & Simplifications###
+## Key Assumptions & Simplifications
 
 To keep the model interpretable and analytically valid, the following assumptions are made:
 Identical machines (homogeneous fleet)
@@ -40,7 +40,7 @@ No partial failures or repair quality degradation
 Failure time derived from historical operational data
 These assumptions are intentional and acceptable for policy comparison, not for exact real-world prediction.
 
-KPIs ###
+## KPIs
 
 Average Downtime per Machine,
 Number of completed maintenance operations,
