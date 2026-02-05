@@ -47,5 +47,5 @@ Number of completed maintenance operations,
 Queue-induced waiting time (implicit),
 Improvement is reported as:Improvement (%) = (AS-IS Avg Downtime − TO-BE Avg Downtime) / AS-IS Avg Downtime
 
-<img src="./img.png">
+![img](avg_downtime_by_policy)
 
