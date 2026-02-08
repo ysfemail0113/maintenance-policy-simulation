@@ -47,5 +47,9 @@ Number of completed maintenance operations,
 Queue-induced waiting time (implicit),
 Improvement is reported as:Improvement (%) = (AS-IS Avg Downtime − TO-BE Avg Downtime) / AS-IS Avg Downtime
 
-![img](avg_downtime_by_policy.png)
+## RESULTS
+Policy 3 achieves the highest performance improvement, reducing average downtime by approximately 60.83% compared to the AS-IS scenario.
+Given that investment costs are assumed to be fixed in this study, Policy 3 represents the most effective option in terms of operational performance.
+
+![bar.png](bar.png)
 
